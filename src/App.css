@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.movie {
+    text-align: center;
+    background-color: rgb(58, 8, 72);
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    padding: 5px;
+}
+
+.input {
+    background-color: cadetblue;
+    position: fixed;
+    top: 38px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 11;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.input input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+.input button {
+    padding: 5px 7.5px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    background-color: rgb(52, 183, 52);
+    color: #fff;
+    margin-left: 10px;
+}
+
+.cont {
+    gap: 40px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-page {
+    max-width: 100%;
+    width: 400px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.cont-page :first-child {
+    margin: 0;
+}
+
+.cont-page p {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.cont-page button {
+    padding: 8px 20px;
+    color: white;
+    background-color: rgb(54, 177, 17);
+    border: 1px solid;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 15px;
+}
+
+.bigContainer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.favoriteList {
+    right: 50px;
+    position: fixed;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+}
